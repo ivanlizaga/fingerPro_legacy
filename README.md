@@ -53,17 +53,13 @@ If you're working with **stable isotopes** or want to combine them with elementa
 
 ## Installation
 ``` r
-# From CRAN (version 1.1)
-install.packages("fingerPro")
-library(fingerPro)
-
 # From your computer (version 1.3)
-Download the fingerPro_1.3.zip file from GitHub on your computer
+Download the fingerPro_1.9.zip file from GitHub on your computer
 setwd("C:/your/file/directory")
-install.packages('fingerPro_1.3.zip', repos = NULL)
+install.packages('fingerPro_1.9.zip', repos = NULL)
 
-# From GitHub (version 1.3)
-devtools::install_github("eead-csic-eesa/fingerPro", ref = "master", force = T)
+# From GitHub (version 1.9)
+devtools::install_github("ivanlizaga/fingerPro_legacy", ref = "main", force = T)
 ```
 
 ## Preparing your data
@@ -277,6 +273,8 @@ You can cite this package and the new developed tools on your work as:
 **Latorre, B., Lizaga, I., Gaspar, L., Navas, A., 2021. A novel method for analysing consistency and unravelling multiple solutions in sediment fingerprinting. Science of The Total Environment 789, 147804. https://doi.org/10.1016/j.scitotenv.2021.147804**
 
 **Lizaga, I., Latorre, B., Gaspar, L., Navas, A., 2022. Combined use of geochemistry and compound-specific stable isotopes for sediment fingerprinting and tracing. Science of The Total Environment 832, 154834. https://doi.org/10.1016/j.scitotenv.2022.154834**
+
+**Latorre, B., Lizaga, I., Gaspar, L., Navas, A., 2024. Evaluating the Impact of High Source Variability and Extreme Contributing Sources on Sediment Fingerprinting Models. Water Resources Management https://doi.org/10.1007/s11269-025-04169-8**
 
 and also refer to the code as:
 
